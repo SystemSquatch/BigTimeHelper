@@ -38,8 +38,6 @@ namespace BigTimeHelper
                     Settings.Close();
                     this.Close();
                 }
-
-
             }
 
         }
