@@ -21,7 +21,6 @@ namespace BigTimeHelper
 
         private void Continue_Click(object sender, EventArgs e)
         {
-
             if(textBox1.Text == "" || textBox2.Text == "")
             {
                 MessageBox.Show("Please enter a username and password");
