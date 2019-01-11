@@ -72,6 +72,7 @@ namespace BigTimeHelper
             var driver = new ChromeDriver(driverService, options);
 
 
+
             //goes to eservices
             driver.Navigate().GoToUrl("https://www.mnsu.edu/eservices/");
             driver.Navigate().Refresh();
