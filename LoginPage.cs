@@ -47,11 +47,18 @@ namespace BigTimeHelper
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //pass instance of Entertime
-            Settings.EnterTime = this.EnterTime;
             //show the window
-            Settings.Show();
-
+            try
+            {
+                Settings.EnterTime = this.EnterTime;
+                Settings.Show();
+            }
+            catch(Exception)
+            {
+                Form2 Settings = new Form2();
+                Settings.EnterTime = this.EnterTime;
+                Settings.Show();
+            }
         }
 
     }
