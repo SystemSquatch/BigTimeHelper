@@ -31,7 +31,15 @@ namespace BigTimeHelper
                 EnterTime.SetID(textBox1.Text);
                 EnterTime.SetP(textBox2.Text);
                 //execute program and close the user settings window
-                Boolean complete = EnterTime.ExecuteTimeAddition();
+                Boolean complete;
+                try
+                {
+                    complete = EnterTime.ExecuteTimeAddition();
+                }
+                catch
+                {
+                    complete = false;
+                }
                 if (complete)
                 {
                     Settings.Close();

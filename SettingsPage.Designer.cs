@@ -252,6 +252,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(386, 367);
+            this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.enterSettings);
             this.Controls.Add(this.monthCalendar1);
