@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BigTimeHelper
 {
-    public partial class Form2 : Form
+    public partial class SettingsPage : Form
     {
 
         public TimeEntering EnterTime;
@@ -19,7 +19,7 @@ namespace BigTimeHelper
         private CheckBox[] checkBoxes;
         private int[] dayNumbers;
 
-        public Form2()
+        public SettingsPage()
         {
             InitializeComponent();
 

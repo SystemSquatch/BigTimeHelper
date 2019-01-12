@@ -1,6 +1,6 @@
 ﻿namespace BigTimeHelper
 {
-    partial class Form2
+    partial class SettingsPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsPage));
             this.CB1 = new System.Windows.Forms.CheckBox();
             this.CB7 = new System.Windows.Forms.CheckBox();
             this.CB6 = new System.Windows.Forms.CheckBox();
