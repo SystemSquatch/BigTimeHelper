@@ -7,17 +7,17 @@ using System.Threading;
 
 namespace BigTimeHelper
 {
-    public partial class Form1 : Form
+    public partial class LoginPage : Form
     {
 
-        public Form1()
+        public LoginPage()
         {
             InitializeComponent();
         }
 
         private TimeEntering EnterTime = new TimeEntering();
         //create settings form
-        private Form2 Settings = new Form2();
+        private SettingsPage Settings = new SettingsPage();
 
         private void Continue_Click(object sender, EventArgs e)
         {
@@ -52,7 +52,7 @@ namespace BigTimeHelper
             }
             catch(Exception)
             {
-                Form2 Settings = new Form2();
+                SettingsPage Settings = new SettingsPage();
                 Settings.EnterTime = this.EnterTime;
                 Settings.Show();
             }
