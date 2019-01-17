@@ -9,6 +9,7 @@ namespace BigTimeHelper
 {
     public partial class LoginPage : Form
     {
+        int debugModeClicks = 0;
 
         public LoginPage()
         {
@@ -58,5 +59,16 @@ namespace BigTimeHelper
             }
         }
 
+        private void usernameLabel_Click(object sender, EventArgs e)
+        {
+            debugModeClicks++;
+
+            if (debugModeClicks == 5)
+            {
+                MessageBox.Show("Debug mode activated");
+
+                // TODO: Implement what happens when debug mode is activated
+            }
+        }
     }
 }
